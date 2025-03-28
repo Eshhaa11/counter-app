@@ -7,10 +7,11 @@ function Counter () {
     const increaseCount = () => setCount(count + 1);   
     const decreaseCount = () => setCount(count - 1);
     const resetCounter = () => setCount(0);
-    
+
      return (
         <div>
           <h1>Counter App</h1>
+          <h2>{count}</h2>
 
           <button>+1</button>
           <button>-1</button>

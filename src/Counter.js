@@ -14,7 +14,7 @@ function Counter () {
           <h2>{count}</h2>
 
           <button onClick={increaseCount}>+1</button>
-          <button>-1</button>
+          <button onClick={decreaseCount}>-1</button>
           <button>Reset</button>
         </div>
 

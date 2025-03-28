@@ -6,7 +6,7 @@ function Counter () {
 
     const increaseCount = () => setCount(count + 1);   
     const decreaseCount = () => setCount(count - 1);
-    const resetCounter = () => setCount(0);
+    const resetCount= () => setCount(0);
 
      return (
         <div>
@@ -15,7 +15,7 @@ function Counter () {
 
           <button onClick={increaseCount}>+1</button>
           <button onClick={decreaseCount}>-1</button>
-          <button>Reset</button>
+          <button onClick={resetCount}>Reset</button>
         </div>
 
     );

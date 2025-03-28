@@ -6,6 +6,8 @@ function Counter () {
 
     const increaseCount = () => setCount(count + 1);   
     const decreaseCount = () => setCount(count - 1);
+    const resetCounter = () => setCount(0);
+    
      return (
         <div>
           <h1>Counter App</h1>

@@ -14,10 +14,11 @@ function Counter () {
         <div>
           <h1>Counter App</h1>
           <h2>{count}</h2>
-
+        <div className="Button-Cont">
           <button onClick={increaseCount}>+1</button>
           <button onClick={decreaseCount}>-1</button>
           <button onClick={resetCount}>Reset</button>
+        </div>
         </div>
 
     );

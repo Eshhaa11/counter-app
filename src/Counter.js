@@ -1,4 +1,6 @@
 import react, {useState}from "react";
+import './Counter.css';
+
 
 function Counter () {
 

@@ -1,14 +1,15 @@
 * {
     background-color: black;
+    color: white;
 }
-    div {
+
+div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
     font-family: 'Times New Roman';
     font-size: 30px;
-    background-color: black;
+   
 }
 
 h1 {
